@@ -1,0 +1,37 @@
+@startuml localized-string
+
+'******* CONFIGURATION ************************************************
+!include style.uml.inc
+
+'******* CLASS DEFINITION *********************************************
+
+class LocalizedStringCollection {
+  +content: LocalizedString[1..*]
+  +localetag: LocalizationTag[0..1]
+}
+
+class LocalizationTag {
+  +language: iso639Code
+  +script: iso15924Code
+}
+
+class LocalizedString {
+  +content: String
+  +localetag: LocalizationTag[0..1]
+}
+
+class iso639Code <<dataType>>{
+}
+
+class iso15924Code <<dataType>>{
+}
+
+LocalizedStringCollection <-- LocalizationTag
+LocalizedStringCollection <-- LocalizedString
+
+LocalizedString <-- LocalizationTag
+
+LocalizationTag <-- iso639Code
+LocalizationTag <-- iso15924Code
+
+@enduml

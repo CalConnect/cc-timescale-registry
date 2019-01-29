@@ -1,0 +1,10 @@
+
+[[annex-physical-time-scales]]
+[appendix]
+== Alphabetical list of physical time scale names in English and their code elements
+
+[format="csv",options="header"]
+|===
+include::../data/physical-time-scales.csv[]
+|===
+

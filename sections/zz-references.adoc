@@ -1,0 +1,29 @@
+
+[bibliography]
+== Bibliography
+
+* [[[ISO80000-1,ISO 80000-1:2009]]], _Quantities and units -- Part 1: General_
+
+* [[[ISO80000-3,ISO 80000-3:2006]]], _Quantities and units -- Part 3: Space and time_
+
+* [[[ITUtime,ITU Operational Bulletin Annex No. 1096 – 15.III.2016]]], _Legal Time 2016, Annex to the ITU Operational Bulletin, No. 1096 – 15.III.2016_, Telecommunication Standardization Bureau, ITU
+
+* [[[IATASSIM,IATA SSIM]]], _Standard Schedules Information Manual_, IATA
+//, edition: TODO
+// Add date, e.g.: Issued March 2011
+
+* [[[IANAtzdist,IANA tz database]]], _tz database_, IANA, last accessed: TODO
+
+* [[[ISO5127,ISO 5127]]], _Information and documentation -- Foundation and vocabulary_
+
+* [[[ISO2382,ISO/IEC 2382]]], _Information technology -- Vocabulary_
+
+* [[[UNLOCODE,UN/LOCODE]]], _UN/ECE Recommendation No. 16, UN/LOCODE: United Nations Code for Ports and other Locations_
+//(second edition, Geneva January 1995), document ECE/TRADE/205: (Current information: version 2003-2)
+
+* [[[ISO3166MA,ISO 3166/MA]]], _ISO 3166 Maintenance Agency_, https://www.iso.org/iso-3166-country-codes.html
+
+* [[[ISO3166-2,ISO 3166-2]]], _Codes for the representation of names of countries and their subdivisions -- Part 2: Country subdivision code_
+
+* [[[ISO3166-3,ISO 3166-3]]], _Codes for the representation of names of countries and their subdivisions -- Part 3: Code for formerly used names of countries_
+

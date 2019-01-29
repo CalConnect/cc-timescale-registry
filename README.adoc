@@ -1,0 +1,73 @@
+:repo-name: iso-timescale-registry
+
+= CalConnect/ISO Standard: Date and time -- Time scales
+
+This work item belongs to TC DATETIME.
+
+image:https://gitlab.com/calconnect/tc-datetime/iso-timescale-registry/badges/master/build.svg["Build Status", link="https://gitlab.com/calconnect/tc-datetime/iso-timescale-registry/pipelines"]
+
+////
+image:https://travis-ci.com/calconnect/iso-timescale-registry.svg?branch=master["Build Status", link="https://travis-ci.com/calconnect/iso-timescale-registry"]
+
+This document is available in its rendered forms here:
+
+* https://calconnect.github.io/iso-timescale-registry/[CalConnect Calendar operator practices -- Guidelines to protect against calendar abuse (HTML)]
+* https://calconnect.github.io/iso-timescale-registry/iso-timescale-registry.pdf[PDF]
+* https://calconnect.github.io/iso-timescale-registry/iso-timescale-registry.xml[Metanorma XML]
+* https://calconnect.github.io/iso-timescale-registry/iso-timescale-registry.rxl[Relaton XML (Bibliographic item)]
+////
+
+
+Because of all this, there is no need to build the document on your own, but if you wish to do so, this is how it can be done:
+
+== Fetching the document
+
+[source,sh]
+----
+git clone https://gitlab.com/calconnect/iso-timescale-registry/
+----
+
+== Installing Build Tools
+
+See https://www.metanorma.com/overview/getting-started/
+
+
+== Running via Docker or locally
+
+If you have installed the build tools locally, and wish to run the
+locally-installed compilation tools, there is nothing further to set.
+
+If you don't want to deal with local dependencies, use the docker
+version by:
+
+[source,sh]
+----
+export METANORMA_DOCKER=1
+----
+
+The `Makefile` will automatically choose the proper command to
+execute.
+
+
+== Building The Document
+
+[source,sh]
+----
+make clean all
+----
+
+The following outputs will be built:
+
+* CSD XML (https://github.com/calconnect/metanorma-model-csd) (`[filename].xml`)
+* HTML (`[filename].html`)
+* PDF (`[filename].pdf`)
+* Word DOC (`[filename].doc`)
+
+
+== Iterating the document
+
+[source,sh]
+----
+make html
+open *.html
+----

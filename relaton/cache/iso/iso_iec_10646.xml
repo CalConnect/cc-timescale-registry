@@ -1,0 +1,160 @@
+<bibitem type="international-standard" id="ISO/IEC10646">
+  <fetched>2018-12-05</fetched>
+  <title format="text/plain" language="en" script="Latn">Information technology -- Universal Coded Character Set (UCS)</title>
+  <uri type="src">https://www.iso.org/standard/69119.html</uri>
+  <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:69119:en</uri>
+  <uri type="rss">https://www.iso.org/contents/data/standard/06/91/69119.detail.rss</uri>
+  <docidentifier type="ISO">ISO/IEC 10646</docidentifier>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Organization for Standardization</name>
+      <abbreviation>ISO</abbreviation>
+      <uri>www.iso.org</uri>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>International Electrotechnical Commission</name>
+      <abbreviation>IEC</abbreviation>
+      <uri>www.iec.ch</uri>
+    </organization>
+  </contributor>
+  <edition>5</edition>
+  <language>en</language>
+  <language>fr</language>
+  <script>Latn</script>
+  <status>
+    <stage>90</stage>
+    <substage>92</substage>
+  </status>
+  <copyright>
+    <from>2017</from>
+    <owner>
+      <organization>
+        <name>ISO/IEC</name>
+      </organization>
+    </owner>
+  </copyright>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO/IEC 10646:2014</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO/IEC 10646:2014/Amd 1:2015</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO/IEC 10646:2014/Amd 2:2016</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem>
+      <formattedref>ISO/IEC 10646:2017/Amd 1</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="updates">
+    <bibitem>
+      <formattedref>ISO/IEC 10646:2017/DAmd 2</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="obsoletes">
+    <bibitem>
+      <formattedref>ISO/IEC CD 10646</formattedref>
+    </bibitem>
+  </relation>
+  <relation type="instance">
+    <bibitem type="international-standard">
+      <fetched>2018-12-05</fetched>
+      <title format="text/plain" language="en" script="Latn">Information technology -- Universal Coded Character Set (UCS)</title>
+      <uri type="src">https://www.iso.org/standard/69119.html</uri>
+      <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:69119:en</uri>
+      <uri type="rss">https://www.iso.org/contents/data/standard/06/91/69119.detail.rss</uri>
+      <docidentifier type="ISO">ISO/IEC 10646:2017</docidentifier>
+      <date type="published">
+        <on>2017</on>
+      </date>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Organization for Standardization</name>
+          <abbreviation>ISO</abbreviation>
+          <uri>www.iso.org</uri>
+        </organization>
+      </contributor>
+      <contributor>
+        <role type="publisher"/>
+        <organization>
+          <name>International Electrotechnical Commission</name>
+          <abbreviation>IEC</abbreviation>
+          <uri>www.iec.ch</uri>
+        </organization>
+      </contributor>
+      <edition>5</edition>
+      <language>en</language>
+      <language>fr</language>
+      <script>Latn</script>
+      <abstract format="plain" language="en" script="Latn">ISO/IEC 10646:2017 specifies the Universal Coded Character Set (UCS). It is applicable to the represen-tation, transmission, interchange, processing, storage, input, and presentation of the written form of the lan-guages of the world as well as of additional symbols.-           specifies the architecture of this International Standard,-           defines terms used in this International Standard,-           describes the general structure of the UCS codespace,-           specifies the Basic Multilingual Plane (BMP) of the UCS,-           specifies supplementary planes of the UCS: the Supplementary Multilingual Plane (SMP), the Supplemen-tary Ideographic Plane (SIP), the Tertiary Ideographic Plane (TIP), and the Supplementary Special-purpose Plane (SSP),-           defines a set of graphic characters used in scripts and the written form of languages on a world-wide scale,-           specifies the names for the graphic characters and format characters of the BMP, SMP, SIP, TIP, SSP and their coded representations within the UCS codespace,-           specifies the coded representations for control characters and private use characters,-           specifies three encoding forms of the UCS: UTF-8, UTF-16, and UTF-32,-           specifies seven encoding schemes of the UCS: UTF-8, UTF-16, UTF-16BE, UTF-16LE, UTF-32, UTF-32BE, and UTF-32LE,-           specifies the management of future additions to this coded character set.The UCS is an encoding system different from that specified in ISO/IEC 2022. The method to designate UCS from ISO/IEC 2022 is specified in 12.2. A graphic character will be assigned only one code point in the standard, located either in the BMP or in one of the supplementary planes.</abstract>
+      <status>
+        <stage>90</stage>
+        <substage>92</substage>
+      </status>
+      <copyright>
+        <from>2017</from>
+        <owner>
+          <organization>
+            <name>ISO/IEC</name>
+          </organization>
+        </owner>
+      </copyright>
+      <relation type="obsoletes">
+        <bibitem>
+          <formattedref>ISO/IEC 10646:2014</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="obsoletes">
+        <bibitem>
+          <formattedref>ISO/IEC 10646:2014/Amd 1:2015</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="obsoletes">
+        <bibitem>
+          <formattedref>ISO/IEC 10646:2014/Amd 2:2016</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="updates">
+        <bibitem>
+          <formattedref>ISO/IEC 10646:2017/Amd 1</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="updates">
+        <bibitem>
+          <formattedref>ISO/IEC 10646:2017/DAmd 2</formattedref>
+        </bibitem>
+      </relation>
+      <relation type="obsoletes">
+        <bibitem>
+          <formattedref>ISO/IEC CD 10646</formattedref>
+        </bibitem>
+      </relation>
+      <editorialgroup>
+        <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 2Coded character sets</technical_committee>
+      </editorialgroup>
+      <ics>
+        <code>35.040.10</code>
+        <text>Coding of character sets</text>
+      </ics>
+    </bibitem>
+  </relation>
+  <editorialgroup>
+    <technical_committee number="1" type="TC">ISO/IEC JTC 1/SC 2Coded character sets</technical_committee>
+  </editorialgroup>
+  <ics>
+    <code>35.040.10</code>
+    <text>Coding of character sets</text>
+  </ics>
+</bibitem>

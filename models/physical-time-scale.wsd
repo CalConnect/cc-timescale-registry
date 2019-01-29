@@ -1,0 +1,25 @@
+@startuml physical-time-scale
+
+'******* CONFIGURATION ************************************************
+!include style.uml.inc
+
+'******* CLASS DEFINITION *********************************************
+
+class PhysicalTimeScale {
+  +id: Uid
+  +authority: AuthorityInfo
+  +name: LocalizedStringCollection
+  +description: LocalizedStringCollection
+' +leapSeconds: LeapSecondRecord[0..*]
+}
+
+'class LeapSecondRecord {
+'  +time: iso8601DateTime
+'  +seconds: Integer
+'}
+
+'******* NOTES ********************************************************
+
+'PhysicalTimeScale <|-down- LeapSecondRecord
+
+@enduml

@@ -1,0 +1,27 @@
+
+== Scope
+
+This document describes the concepts and definitions related
+to time scales, including:
+
+* time scales; and
+* time scale authorities.
+
+This document also establishes codes that represent the following
+attributes, current or in the past, on the basis of data
+obtained from official sources:
+
+* names of time scales; and
+* names of time scale authorities.
+
+This document specifies a registration authority that
+manages and disseminates the code lists required by
+this document.
+
+This document is intended for use in any application requiring the
+expression of time scale names and time scale
+authority names in coded form. It also includes basic guidelines
+for its implementation and maintenance.
+
+Methods of using codes provided in this document for indication
+of time scales or related concepts are not covered in this document.

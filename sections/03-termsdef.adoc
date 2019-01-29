@@ -1,0 +1,168 @@
+
+[[tda]]
+[source=ISO8601-1]
+== Terms and definitions
+
+
+[[term-code]]
+=== code
+set of data transformed or represented in different forms according to a pre-established set of rules
+
+[.source]
+<<ISO5127,clause="3.1.13.10">>
+
+
+=== code element
+
+the result of applying a code to an element of a coded set
+[.source]
+<<ISO2382,clause="21215552">>
+
+////
+Note 1 to entry: Adapted from the term code value ISO/IEC°2382-4:1999, 04.02.04.
+Note 2 to entry: In the country code part of ISO°3166 (also known as part 1), a code element represents a country name. In the country subdivision code part of ISO°3166 (also known as part 2), a code element represents a country subdivision name. In the formerly used country code part of ISO°3166 (also known as part 3), a code element represents a formerly used country name.
+////
+
+
+[[term-physical-time-scale]]
+=== physical time scale
+
+time scale directly based on measurements of a physical quantity
+
+NOTE: Common physical quantity measurements for time scales include
+atomic oscillations, earth rotation and celestial motion.
+
+NOTE: The physical time scale is not always legally UTC in all countries.
+
+NOTE: Physical time scales in use other than UTC include: UT, TAI, GMT,
+GPS system time, Galileo system time,
+BeiDou system time, LORAN station system time.
+// (TAI minus 10 seconds).
+
+=== civil time scale
+
+time scale based on a _physical time scale_ (<<term-physical-time-scale>>) with an
+offset determined through administration
+
+//NOTE: A time zone must have a physical time scale as its basis.
+
+
+////
+[[term-basis-time-scale]]
+=== basis time scale
+
+time scale that serves reference time for a _timezone_ (<<term-timezone>>)
+////
+
+
+
+[[term-time-scale-authority]]
+=== time scale authority
+
+entity assigned to oversee determination and regulation of a _physical time scale_ (<<term-physical-time-scale>>)
+
+[example]
+BIPM is the time scale authority of UTC and TAI.
+
+[example]
+NIST is the time scale authority of UTC(NIST).
+
+NOTE: The GMT time scale was published by BIH until GMT was superseded by
+UT, which is now published by IERS.
+// (and by the sub-bureaus of IERS, such as sections of USNO).
+////
+US NBS (now NIST) published GMT from 1967 through 1973.
+The UK post office broadcast GMT based on signals from Greenwich Observatory time service.
+USNO did broadcast UT and still publishes it.
+////
+
+NOTE: The physical time scale for a country is generally set by a
+national time lab. For example, NIST is a time scale authority
+since 1967-04-28 21:00.
+
+NOTE: BIPM Circular T provides a list of the national time authorities
+who are members and who participate in the construction of TAI.
+
+
+////
+SA: so who is the authority for GMT in those countries where
+the law specifies that as the physical time scale?
+Those national time labs are generally the source and name of the
+physical time scale for their countries.
+////
+
+
+[[term-time-scale-identifier]]
+=== time scale identifier
+
+_code_ (<<term-code>>) that represents indicates a time scale
+
+
+[[term-time-scale-authority-identifier]]
+=== time scale authority identifier
+
+_code_ (<<term-code>>) that represents indicates a _time scale authority_ (<<term-time-scale-authority>>)
+
+
+[[term-official-time-scale-authority]]
+=== official time scales authority
+
+governmental agency or office with the responsibility of a _time scale authority_ (<<term-time-scale-authority>>) within a country, jurisdiction, or assigned territory
+
+[example]
+The US Department of Transport is an official timezone authority carrying authority of the United States.
+
+
+[[term-unofficial-time scales-authority]]
+=== unofficial time scale authority
+
+_time scale authority_ (<<term-time-scale-authority>>) that is not an _official time scale authority_ (<<term-official-time-scale-authority>>) or _international time scales authority_ (<<term-international-time-scale-authority>>)
+
+[example]
+The University of California Observatories is an unofficial time scale authority.
+
+
+[[term-international-time-scale-authority]]
+=== international time scale authority
+
+_time scale authority_ (<<term-time-scale-authority>>) that operates under international scope and
+whose decisions for _physical time scales_ (<<term-physical-time-scale>>) management are made with international participation
+
+[example]
+The BIPM is an international time scale authority.
+
+
+=== language identifier
+
+information which indicates the name of a language
+
+[.source]
+<<ISO639-1,clause="3.3">>
+
+
+=== script
+
+combination of characters used to represent the name of a script
+
+[.source]
+<<ISO15924,clause="3.8">>
+
+
+[[term-iso-3166-code]]
+=== ISO 3166 code
+
+identifier provided by the ISO 3166 series of standards
+listing of country names with their representations by code elements
+
+[.source]
+<<ISO3166-1,clause="3.3">>, term changed to "`ISO 3166 code`" to reflect origin.
+
+
+[[term-country-name]]
+=== country name
+
+name of a country, dependency, or other area of particular geopolitical interest
+
+[.source]
+<<ISO3166-1,clause="3.4">>
+

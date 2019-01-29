@@ -1,0 +1,74 @@
+[[introduction]]
+== Introduction
+
+=== General
+
+This international standard describes the concepts,
+data model representations,
+and universally applicable coded representations of
+time scales and time scale authorities.
+
+It belongs to the same family of standards as
+<<ISO8601-1>> and <<ISO8601-2>>, the international standards
+for date and time representation.
+
+
+
+=== Concepts
+
+This document aims to standardize the concept of a physical time scale,
+its parameters and associated concepts for the use of the
+international community.
+
+In particular, these concepts are defined in this document:
+
+* time scale; and
+* time scale authority.
+
+
+
+=== Data models
+
+This document provides a number of data models that defines
+time scales and related concepts in fine resolution, allowing
+compliant implementations to be able to interoperate.
+
+
+=== Coded representations
+
+This international standard establishes codes that represent
+the following attributes, current or in the past, on the basis
+of data obtained from official sources:
+
+* names of time scales; and
+* names of time scale authorities.
+
+
+=== Registration authority of code lists
+
+This document specifies a registration authority that
+manages and disseminates the code lists required by
+this document.
+
+The registration authority is not meant to replace existing
+computer time scale databases, but meant to serve authoritative
+time scale information created by the time scale authorities,
+and can be used as an upstream information source to synchronize
+existing time scale databases.
+
+The mechanism of time scale registration given in this
+international standard empowers time scale authorities
+to publish digital definitions of their time scales themselves,
+therefore allowing users to directly obtain authoritative
+time scale information from the time scale authorities.
+
+
+=== Priority for practice
+
+This document aims to provide interoperable representations
+and mechanisms for the use and management of time scales.
+
+It does not express any opinion whatsoever
+concerning the legal status of any country, dependency, or other
+area named herein, or concerning its frontiers or boundaries.
+
