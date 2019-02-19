@@ -110,13 +110,12 @@ _code_ (<<term-code>>) that represents indicates a _time scale authority_ (<<ter
 governmental agency or office with the responsibility of a _time scale authority_ (<<term-time-scale-authority>>) within a country, jurisdiction, or assigned territory
 
 [example]
-The US Department of Transport is an official timezone authority carrying authority of the United States.
+The US Department of Transport is an official time scale authority carrying authority of the United States.
 
-
-[[term-unofficial-time scales-authority]]
+[[term-unofficial-time-scale-authority]]
 === unofficial time scale authority
 
-_time scale authority_ (<<term-time-scale-authority>>) that is not an _official time scale authority_ (<<term-official-time-scale-authority>>) or _international time scales authority_ (<<term-international-time-scale-authority>>)
+_time scale authority_ (<<term-time-scale-authority>>) that is not an _official time scale authority_ (<<term-official-time-scale-authority>>) or _international time scale authority_ (<<term-international-time-scale-authority>>)
 
 [example]
 The University of California Observatories is an unofficial time scale authority.

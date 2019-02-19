@@ -144,27 +144,75 @@ The principle behind the alphabetic codes for physical time scale authorities is
 
 In applying this principle, the code elements have generally been assigned on the basis of the abbreviated names of the physical time scale authorities, thus avoiding, wherever possible, any reflection of their political status.
 
+Official physical time scale identifiers are in the following format:
+
+[source]
+----
+[iso-3166-code]-[physical-time-scale-authority-identifier]
+----
+
+[example]
+`hk-hko` for the Hong Kong Observatory.
+
+
+The <<ISO3166-1>> private code point `AA` is used as a prefix
+for international physical time scales.
+
+[source]
+----
+aa-[physical-time-scale-authority-identifier]
+----
+
+[example]
+`aa-bipm` for the BIPM.
+
+
+The <<ISO3166-1>> private code point `ZZ` is used as a prefix
+for all unofficial physical time scale authorities.
+
+In terms of coding, official physical time scale authority-identifiers are in the
+following format:
+
+[source]
+----
+zz-[physical-time-scale-authority-identifier]
+----
+
+
+
 ===== Construction of the alphabetic code
 
 The following rules are to be adhered to for the assignment of the alphabetic code:
 
-* The alphabetic code uses combinations, in upper case, of a maximum of 10 letters of the 26-character Latin alphabet, allowing for
-close to $4^26$ combinations.
+* The alphabetic code uses combinations, in upper case, of a maximum of 16 letters of the 26-character Latin alphabet with the "dash" (`-`).
+//, allowing for close to $4^27$ combinations.
 
-* To encourage descriptive and distinguishable alphabetic names, the minimum length of an assigned code is 3 letters.
+* To encourage descriptive and distinguishable alphabetic names, the minimum length of the physical time scale identifier without the <<ISO3166-1>> code is 3 letters.
 
-* The specific code of `xx` is reserved and is used as the prefix of user-assignable physical time scale authority codes.
+* The specific code prefix of `XX` is reserved and is used as the prefix of user-assignable physical time scale codes.
 
 
 
 ===== User assigned code elements
 
-If users need code elements to represent physical time scale authorities not included in the physical time scale authority registry, the code prefix of `xx` can be used, and the code length behind the prefix must be 3 or more letters.
+If users need code elements to represent physical time scales not included in the physical time scale registry, the <<ISO3166-1>> code prefix of `XX` can be used, being a reserved code point `XX` for private user assignment.
 
+The code length for the physical time scale identifier must be 3 or more letters.
+
+Such physical time scale identifiers are in the following format:
+
+[source]
+----
+xx-[physical-time-scale-authority-identifier]
+----
+
+////
 [example]
-`xx-unece` could be a user assignment of an internal physical time scale authority of UN/ECE.
+`xx-unece` is an example of a user-assigned private code for a physical time scale published by the UN/ECE.
+////
 
 NOTE: Users are advised that the above series of codes are not universals, those code elements are not compatible between different entities.
+
 
 
 ==== List of physical time scale authorities and their code elements

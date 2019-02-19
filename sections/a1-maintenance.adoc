@@ -11,19 +11,19 @@ A registration authority (ISO 34100/AG) has been appointed to operate under guid
 
 . to advise users and ISO member bodies regarding application of the codes;
 
-. to update and disseminate list of physical time scaless, their authorities and their definitions;
+. to update and disseminate list of physical time scales, their authorities and their definitions;
 
 . to maintain a reference list of all physical time scales, their authorities and definitions;
 
 . to publish changes made to such information;
 
-. to administer the reservation of codes related to the list of physical time scaless and their authorities.
+. to administer the reservation of codes related to the list of physical time scales and their authorities.
 
 Changes to this part of ISO 34100 are decided by the ISO 34100/AG and become effective immediately upon publication.
 
-The criteria provided in <<registration-adding-tzauth>> to 6.5 shall be observed by the ISO 34100/AG for changes to the list of country names in this part of ISO 34100, and their code elements, and for reservations of code elements.
+The criteria provided in <<registration-adding-tsauth>> to 6.5 shall be observed by the ISO 34100/AG for changes to the list of country names in this part of ISO 34100, and their code elements, and for reservations of code elements.
 
-[[registration-adding-tzauth]]
+[[registration-adding-tsauth]]
 === Addition to the list of physical time scale authorities
 
 Additions to the list of physical time scales authorities shall be made on the basis of information from a member of the United Nations, or upon the request of a member of ISO 34100/AG.
@@ -41,7 +41,7 @@ Additions to the official and international time scale authorities require addit
 Additions to the list of physical time scales shall be made only by the appropriate registered authority.
 
 
-[[registration-removing-tzauth]]
+[[registration-removing-tsauth]]
 === Deletion from the list of physical time scale authorities
 
 Deletion from the list of physical time scales authorities shall be made on the basis of information from a member of the United Nations, or upon the request of a member of ISO 34100/AG.

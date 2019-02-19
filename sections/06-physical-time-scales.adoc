@@ -19,7 +19,7 @@ International physical time scales are physical time scales that apply internati
 without regard to geolocation.
 
 [example]
-`UTC+0:00` is an international physical time scale.
+UTC and TAI are international physical time scales.
 
 
 ==== Official physical time scales
@@ -57,7 +57,7 @@ A code that represents the physical time scale.
 A code that represents the geographic applicability of the physical time scale.
 
 [example]
-The `utc` UTC time applies globally with the code `aa`.
+UTC time applies globally with the code `aa`.
 
 
 ==== Internationally recognized short name
@@ -193,7 +193,7 @@ Such physical time scale identifiers are in the following format:
 
 [source]
 ----
-xx-[physical time scale-authority-identifier]-[physical time scale-identifier]
+xx-[physical-time-scale-authority-identifier]-[physical time scale-identifier]
 ----
 
 ////
