@@ -1,5 +1,5 @@
 <bibitem type="international-standard" id="ISO639-1">
-  <fetched>2018-12-03</fetched>
+  <fetched>2019-02-10</fetched>
   <title format="text/plain" language="en" script="Latn">Codes for the representation of names of languages -- Part 1: Alpha-2 code</title>
   <title format="text/plain" language="fr" script="Latn">Codes pour la représentation des noms de langue -- Partie 1: Code alpha-2</title>
   <uri type="src">https://www.iso.org/standard/22109.html</uri>
@@ -20,7 +20,7 @@
   <script>Latn</script>
   <status>
     <stage>90</stage>
-    <substage>20</substage>
+    <substage>93</substage>
   </status>
   <copyright>
     <from>2002</from>
@@ -37,7 +37,7 @@
   </relation>
   <relation type="instance">
     <bibitem type="international-standard">
-      <fetched>2018-12-03</fetched>
+      <fetched>2019-02-10</fetched>
       <title format="text/plain" language="en" script="Latn">Codes for the representation of names of languages -- Part 1: Alpha-2 code</title>
       <title format="text/plain" language="fr" script="Latn">Codes pour la représentation des noms de langue -- Partie 1: Code alpha-2</title>
       <uri type="src">https://www.iso.org/standard/22109.html</uri>
@@ -63,7 +63,7 @@
       <abstract format="plain" language="fr" script="Latn">La présente partie de l'ISO 639 fournit un code composé de codets de langue formés avec des indicatifs de langue à deux lettres pour la représentation des noms de langue. Les indicatifs de langue figurant dans la présente partie de l'ISO 639 ont été conçus principalement pour être utilisés en terminologie, lexicographie et linguistique mais peuvent être adaptés à toute autre application dans laquelle il est nécessaire d'exprimer une langue sous la forme d'un code à deux lettres, notamment dans le cadre des systèmes informatiques. Le code alpha-2 a été créé pour un usage pratique pour la plupart des grandes langues du monde qui ne sont pas seulement les plus souvent représentées dans le corpus de la littérature mondiale, mais pour lesquelles il existe également un volume considérable de langues de spécialité et de terminologies. De nouveaux indicatifs de langue sont créés lorsqu'il devient évident qu'il existe un corpus significatif de documentation écrite dans des langues de spécialité et des terminologies. Les langages créés pour être utilisés exclusivement par des machines, comme les langages de programmation, ne sont pas inclus dans le présent code.</abstract>
       <status>
         <stage>90</stage>
-        <substage>20</substage>
+        <substage>93</substage>
       </status>
       <copyright>
         <from>2002</from>

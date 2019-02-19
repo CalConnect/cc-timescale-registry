@@ -1,5 +1,5 @@
 <bibitem type="international-standard" id="ISO/IEC2382">
-  <fetched>2018-12-05</fetched>
+  <fetched>2019-02-10</fetched>
   <title format="text/plain" language="en" script="Latn">Information technology -- Vocabulary</title>
   <uri type="src">https://www.iso.org/standard/63598.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:63598:en</uri>
@@ -194,7 +194,7 @@
   </relation>
   <relation type="instance">
     <bibitem type="international-standard">
-      <fetched>2018-12-05</fetched>
+      <fetched>2019-02-10</fetched>
       <title format="text/plain" language="en" script="Latn">Information technology -- Vocabulary</title>
       <uri type="src">https://www.iso.org/standard/63598.html</uri>
       <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:63598:en</uri>

@@ -1,5 +1,5 @@
 <bibitem type="international-standard" id="ISO/IEC10646">
-  <fetched>2018-12-05</fetched>
+  <fetched>2019-02-10</fetched>
   <title format="text/plain" language="en" script="Latn">Information technology -- Universal Coded Character Set (UCS)</title>
   <uri type="src">https://www.iso.org/standard/69119.html</uri>
   <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:69119:en</uri>
@@ -54,7 +54,7 @@
   </relation>
   <relation type="updates">
     <bibitem>
-      <formattedref>ISO/IEC 10646:2017/Amd 1</formattedref>
+      <formattedref>ISO/IEC 10646:2017/Amd 1:2019</formattedref>
     </bibitem>
   </relation>
   <relation type="updates">
@@ -69,7 +69,7 @@
   </relation>
   <relation type="instance">
     <bibitem type="international-standard">
-      <fetched>2018-12-05</fetched>
+      <fetched>2019-02-10</fetched>
       <title format="text/plain" language="en" script="Latn">Information technology -- Universal Coded Character Set (UCS)</title>
       <uri type="src">https://www.iso.org/standard/69119.html</uri>
       <uri type="obp">https://www.iso.org/obp/ui/#!iso:std:69119:en</uri>
@@ -128,7 +128,7 @@
       </relation>
       <relation type="updates">
         <bibitem>
-          <formattedref>ISO/IEC 10646:2017/Amd 1</formattedref>
+          <formattedref>ISO/IEC 10646:2017/Amd 1:2019</formattedref>
         </bibitem>
       </relation>
       <relation type="updates">
