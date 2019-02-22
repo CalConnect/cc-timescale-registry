@@ -2,22 +2,23 @@
 [bibliography]
 == Normative References
 
-* [[[ISO8601-1,ISO 8601-1:--]]] footnote:[Under preparation. (Stage at the time of publication ISO/FDIS 8601-1)], _Date and time -- Representation for information interchange -- Part 1: Basic rules_
+* [[[ISO8601-1,ISO 8601-1:2019]]], _Date and time -- Representation for information interchange -- Part 1: Basic rules_
 
-* [[[ISO8601-2,ISO 8601-2:--]]] footnote:[Under preparation. (Stage at the time of publication ISO/FDIS 8601-2)], _Date and time -- Representation for information interchange -- Part 2: Extensions_
+* [[[ISO8601-2,ISO 8601-2:2019]]], _Date and time -- Representation for information interchange -- Part 2: Extensions_
 
 * [[[ISO639-1,ISO 639-1]]], _Codes for the representation of names of languages -- Part 1: Alpha‐2 code_
 
-* [[[ISO639-2,ISO 639-2]]], _Codes for the representation of names of languages -- Part 2: Alpha‐3 code_
+//* [[[ISO639-2,ISO 639-2]]], _Codes for the representation of names of languages -- Part 2: Alpha‐3 code_
 
-* [[[ISO639-3,ISO 639-3]]], _Codes for the representation of names of languages -- Part 3: Alpha‐3 code for comprehensive coverage of languages_
+//* [[[ISO639-3,ISO 639-3]]], _Codes for the representation of names of languages -- Part 3: Alpha‐3 code for comprehensive coverage of languages_
 
 * [[[ISO15924,ISO 15924]]], _Information technology -- Codes for the representation of names of scripts_
 
 * [[[ISO3166-1,ISO 3166-1]]], _Codes for the representation of names of countries and their subdivisions -- Part 1: Country code_
 
-* [[[ISO10646,ISO/IEC 10646]]], _Information technology -- Universal Multiple-Octet Coded Character Set (UCS)_
+//* [[[ISO10646,ISO/IEC 10646]]], _Information technology -- Universal Multiple-Octet Coded Character Set (UCS)_
 
-* [[[ISO19115,ISO 19115]]], _Geographic information -- Metadata -- Part 1: Fundamentals_
+//* [[[ISO19115,ISO 19115]]], _Geographic information -- Metadata -- Part 1: Fundamentals_
 
 //* [[[ISO19107,ISO 19107]]], _Geographic information -- Spatial schema_
+
