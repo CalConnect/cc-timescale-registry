@@ -81,7 +81,7 @@ national time lab. For example, NIST is a time scale authority
 since 1967-04-28 21:00.
 
 NOTE: BIPM Circular T provides a list of the national time authorities
-who are members and who participate in the construction of TAI.
+who are members and who participate in the construction of TAI and UTC.
 
 
 ////

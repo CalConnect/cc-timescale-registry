@@ -6,9 +6,9 @@
 
 * [[[ISO80000-3,ISO 80000-3:2006]]], _Quantities and units -- Part 3: Space and time_
 
-* [[[ITUtime,ITU Operational Bulletin Annex No. 1096 – 15.III.2016]]], _Legal Time 2016, Annex to the ITU Operational Bulletin, No. 1096 – 15.III.2016_, Telecommunication Standardization Bureau, ITU
+//* [[[ITUtime,ITU Operational Bulletin Annex No. 1096 – 15.III.2016]]], _Legal Time 2016, Annex to the ITU Operational Bulletin, No. 1096 – 15.III.2016_, Telecommunication Standardization Bureau, ITU
 
-* [[[IATASSIM,IATA SSIM]]], _Standard Schedules Information Manual_, IATA
+//* [[[IATASSIM,IATA SSIM]]], _Standard Schedules Information Manual_, IATA
 //, edition: TODO
 // Add date, e.g.: Issued March 2011
 
@@ -23,7 +23,14 @@
 
 * [[[ISO3166MA,ISO 3166/MA]]], _ISO 3166 Maintenance Agency_, https://www.iso.org/iso-3166-country-codes.html
 
-* [[[ISO3166-2,ISO 3166-2]]], _Codes for the representation of names of countries and their subdivisions -- Part 2: Country subdivision code_
+//* [[[ISO3166-2,ISO 3166-2]]], _Codes for the representation of names of countries and their subdivisions -- Part 2: Country subdivision code_
 
-* [[[ISO3166-3,ISO 3166-3]]], _Codes for the representation of names of countries and their subdivisions -- Part 3: Code for formerly used names of countries_
+//* [[[ISO3166-3,ISO 3166-3]]], _Codes for the representation of names of countries and their subdivisions -- Part 3: Code for formerly used names of countries_
 
+* [[[BIPMCGPMR2,BIPM CGPM Resolution 2 (2019)]]], Bureau International des Poids et Mesures / The International Bureau of Weights and Measures: The General Conference on Weights and Measures (CGPM),
+_Resolutions adopted_, 2018
+
+* [[[ITURTF460-6,ITU-R TF.460-6]]], _Standard-frequency and time-signal emissions_
+
+
+// CGPM link https://www.bipm.org/utils/common/pdf/CGPM-2018/26th-CGPM-Resolutions.pdf
