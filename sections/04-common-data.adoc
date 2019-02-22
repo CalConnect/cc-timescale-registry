@@ -58,10 +58,11 @@ NOTE: The usage of `XZ` echos the identical practice of <<UNLOCODE>>.
 The following data models are common to the data models specified in
 <<physical-time-scale-authority>> and <<physical-time-scale>>.
 
+////
 ==== Basic data types
 
 image::datatypes.png[]
-
+////
 
 ==== Localization
 
