@@ -6,31 +6,36 @@
 This international standard describes the concepts,
 data model representations,
 and universally applicable coded representations of
-time scales and time scale authorities.
+reference time scales and their authorities.
 
 It belongs to the same family of standards as
 <<ISO8601-1>> and <<ISO8601-2>>, the international standards
 for date and time representation.
 
+This international standard provides code lists
+that facilitates the representation of a reference time scale.
+Such representation is crucial in knowing the basis of a timestamp,
+for example, in the fields of legal metrology, meteorology,
+astronomy and geoinformatics.
 
 
 === Concepts
 
-This document aims to standardize the concept of a physical time scale,
+This document aims to standardize the concept of a reference time scale,
 its parameters and associated concepts for the use of the
 international community.
 
 In particular, these concepts are defined in this document:
 
-* time scale; and
-* time scale authority.
+* reference time scale; and
+* reference time scale authority.
 
 
 
 === Data models
 
 This document provides a number of data models that defines
-time scales and related concepts in fine resolution, allowing
+reference time scales and related concepts in fine resolution, allowing
 compliant implementations to be able to interoperate.
 
 
@@ -40,8 +45,8 @@ This international standard establishes codes that represent
 the following attributes, current or in the past, on the basis
 of data obtained from official sources:
 
-* names of time scales; and
-* names of time scale authorities.
+* names of reference time scales; and
+* names of reference time scale authorities.
 
 
 === Registration authority of code lists
@@ -51,22 +56,22 @@ manages and disseminates the code lists required by
 this document.
 
 The registration authority is not meant to replace existing
-computer time scale databases, but meant to serve authoritative
-time scale information created by the time scale authorities,
+computer reference time scale databases, but meant to serve authoritative
+reference time scale information created by the reference time scale authorities,
 and can be used as an upstream information source to synchronize
-existing time scale databases.
+existing reference time scale databases.
 
-The mechanism of time scale registration given in this
-international standard empowers time scale authorities
-to publish digital definitions of their time scales themselves,
+The mechanism of reference time scale registration given in this
+international standard empowers reference time scale authorities
+to publish digital definitions of their reference time scales themselves,
 therefore allowing users to directly obtain authoritative
-time scale information from the time scale authorities.
+reference time scale information from the reference time scale authorities.
 
 
 === Priority for practice
 
 This document aims to provide interoperable representations
-and mechanisms for the use and management of time scales.
+and mechanisms for the use and management of reference time scales.
 
 It does not express any opinion whatsoever
 concerning the legal status of any country, dependency, or other

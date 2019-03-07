@@ -56,7 +56,7 @@ NOTE: The usage of `XZ` echos the identical practice of <<UNLOCODE>>.
 === Data models
 
 The following data models are common to the data models specified in
-<<physical-time-scale-authority>> and <<physical-time-scale>>.
+<<reference-time-scale-authority>> and <<reference-time-scale>>.
 
 ////
 ==== Basic data types

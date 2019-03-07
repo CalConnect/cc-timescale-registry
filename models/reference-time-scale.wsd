@@ -1,11 +1,11 @@
-@startuml physical-time-scale
+@startuml reference-time-scale
 
 '******* CONFIGURATION ************************************************
 !include style.uml.inc
 
 '******* CLASS DEFINITION *********************************************
 
-class PhysicalTimeScale {
+class ReferenceTimeScale {
   +id: Uid
   +authority: AuthorityInfo
   +name: LocalizedStringCollection
@@ -20,6 +20,6 @@ class PhysicalTimeScale {
 
 '******* NOTES ********************************************************
 
-'PhysicalTimeScale <|-down- LeapSecondRecord
+'ReferenceTimeScale <|-down- LeapSecondRecord
 
 @enduml

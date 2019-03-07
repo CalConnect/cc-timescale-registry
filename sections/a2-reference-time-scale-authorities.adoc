@@ -1,0 +1,9 @@
+
+[[annex-reference-time-scale-authorities]]
+[appendix]
+== Alphabetical list of official reference time scale authorities in English and their code elements
+
+[format="csv",options="header"]
+|===
+include::../data/reference-time-scale-authorities.csv[]
+|===

@@ -1,9 +1,0 @@
-
-[[annex-physical-time-scale-authorities]]
-[appendix]
-== Alphabetical list of official physical time scale authorities in English and their code elements
-
-[format="csv",options="header"]
-|===
-include::../data/physical-time-scale-authorities.csv[]
-|===

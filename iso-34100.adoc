@@ -1,4 +1,4 @@
-= CalConnect/ISO Date and time -- Time scales
+= CalConnect/ISO Date and time -- Reference time scales
 :docnumber: 34100
 :tc-document-number: 9999
 :edition: 1
@@ -6,9 +6,9 @@
 :copyright-year: 2019
 :language: en
 :title-intro-en: Date and time
-:title-main-en: Physical time scales
+:title-main-en: Reference time scales
 :title-intro-fr: Date et l'heure
-:title-main-fr: Échelles de temps
+:title-main-fr: Échelles de temps de référence
 :doctype: standard
 :docstage: 00
 :docsubstage: 00
@@ -39,11 +39,11 @@ include::sections/01-scope.adoc[]
 include::sections/02-norm-refs.adoc[]
 include::sections/03-termsdef.adoc[]
 include::sections/04-common-data.adoc[]
-include::sections/05-physical-time-scale-authority.adoc[]
-include::sections/06-physical-time-scales.adoc[]
+include::sections/05-reference-time-scale-authority.adoc[]
+include::sections/06-reference-time-scales.adoc[]
 
 include::sections/a1-maintenance.adoc[]
-include::sections/a2-physical-time-scale-authorities.adoc[]
-include::sections/a3-physical-time-scales.adoc[]
+include::sections/a2-reference-time-scale-authorities.adoc[]
+include::sections/a3-reference-time-scales.adoc[]
 
 include::sections/zz-references.adoc[]

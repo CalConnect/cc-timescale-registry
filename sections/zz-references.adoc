@@ -27,8 +27,14 @@
 
 //* [[[ISO3166-3,ISO 3166-3]]], _Codes for the representation of names of countries and their subdivisions -- Part 3: Code for formerly used names of countries_
 
-* [[[BIPMCGPMR2,BIPM CGPM Resolution 2 (2019)]]], Bureau International des Poids et Mesures / The International Bureau of Weights and Measures: The General Conference on Weights and Measures (CGPM),
+* [[[CGPM26R2,Resolution 2 of the 26th CGPM (2019)]]], Bureau International des Poids et Mesures / The International Bureau of Weights and Measures: The 26th General Conference on Weights and Measures (CGPM),
 _Resolutions adopted_, 2018
+
+* [[[CGPM15R5,Resolution 5 of the 15th CGPM (1975)]]], Bureau International des Poids et Mesures / The International Bureau of Weights and Measures: The 15th General Conference on Weights and Measures (CGPM),
+_Resolutions adopted_, 1975
+
+* [[[IAU16C4R4,Resolution 4 by Commissions 4 and 31 at 16th IAU GA]]], _Resolutions of Commissions 4 (Ephemerides/Ephemerides) and 31 (Time/L'Heure), XVIth General Assembly_, Grenoble, France, IAU, 1976
+
 
 * [[[ITURTF460-6,ITU-R TF.460-6]]], _Standard-frequency and time-signal emissions_
 

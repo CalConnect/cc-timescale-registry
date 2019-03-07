@@ -1,0 +1,10 @@
+
+[[annex-reference-time-scales]]
+[appendix]
+== Alphabetical list of reference time scale names in English and their code elements
+
+[format="csv",options="header"]
+|===
+include::../data/reference-time-scales.csv[]
+|===
+
