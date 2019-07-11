@@ -1,0 +1,8 @@
+---
+metanorma:
+  deploy:
+    email: "travis-ci@metanorma.org"
+relaton:
+  collection:
+    name: Date and time -- Reference time scales
+    organization: CalConnect/ISO/ITU

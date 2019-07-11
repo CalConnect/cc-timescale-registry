@@ -1,35 +1,36 @@
-:repo-name: iso-timescale-registry
-
-= CalConnect/ISO Standard: Date and time -- Time scales
+= CalConnect/ISO/ITU Standard: Date and time -- Reference time scales
 
 This work item belongs to TC DATETIME.
 
-image:https://gitlab.com/calconnect/tc-datetime/iso-timescale-registry/badges/master/build.svg["Build Status", link="https://gitlab.com/calconnect/tc-datetime/iso-timescale-registry/pipelines"]
-
-////
-image:https://travis-ci.com/calconnect/iso-timescale-registry.svg?branch=master["Build Status", link="https://travis-ci.com/calconnect/iso-timescale-registry"]
+ifdef::env-github[]
+image:https://img.shields.io/travis/com/CalConnect/csd-timescale-registry/master.svg[
+	Build Status, link="https://travis-ci.com/CalConnect/csd-timescale-registry/branches"]
+endif::[]
 
 This document is available in its rendered forms here:
 
-* https://calconnect.github.io/iso-timescale-registry/[CalConnect Calendar operator practices -- Guidelines to protect against calendar abuse (HTML)]
-* https://calconnect.github.io/iso-timescale-registry/iso-timescale-registry.pdf[PDF]
-* https://calconnect.github.io/iso-timescale-registry/iso-timescale-registry.xml[Metanorma XML]
-* https://calconnect.github.io/iso-timescale-registry/iso-timescale-registry.rxl[Relaton XML (Bibliographic item)]
-////
+* https://calconnect.github.io/csd-timescale-registry/[CC/ISO/ITU: Date and time -- Reference time scales (HTML)]
 
-
-Because of all this, there is no need to build the document on your own, but if you wish to do so, this is how it can be done:
 
 == Fetching the document
 
 [source,sh]
 ----
-git clone https://gitlab.com/calconnect/iso-timescale-registry/
+git clone https://github.com/CalConnect/csd-timescale-registry/
 ----
 
 == Installing Build Tools
 
-See https://www.metanorma.com/overview/getting-started/
+=== Metanorma
+
+See https://www.metanorma.com/author/topics/install/
+
+=== Other dependencies
+
+yq::
+  https://github.com/mikefarah/yq
+
+NOTE: This can be confused with https://github.com/kislyuk/yq.
 
 
 == Running via Docker or locally
@@ -53,7 +54,7 @@ execute.
 
 [source,sh]
 ----
-make clean all
+make
 ----
 
 The following outputs will be built:
@@ -66,8 +67,33 @@ The following outputs will be built:
 
 == Iterating the document
 
+=== Manual approach
+
 [source,sh]
 ----
-make html
-open *.html
+# ... edit source files...
+make
+----
+
+=== Automatically watch file (experimental)
+
+Spawn a file-watching HTTP server at port 8123:
+
+[source,sh]
+----
+make watch-serve
+----
+
+Spawn a file-watching HTTP server at a specific port:
+
+[source,sh]
+----
+make watch-serve PORT=8080
+----
+
+== Getting help
+
+[source,sh]
+----
+make help
 ----
