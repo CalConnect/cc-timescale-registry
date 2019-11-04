@@ -3,13 +3,12 @@
 This work item belongs to TC DATETIME.
 
 ifdef::env-github[]
-image:https://img.shields.io/travis/com/CalConnect/csd-timescale-registry/master.svg[
-	Build Status, link="https://travis-ci.com/CalConnect/csd-timescale-registry/branches"]
+image:https://github.com/CalConnect/csd-timescale-registry/workflows/publish/badge.svg["Build Status", link="https://github.com/CalConnect/csd-timescale-registry/actions?workflow=publish"]
 endif::[]
 
 This document is available in its rendered forms here:
 
-* https://calconnect.github.io/csd-timescale-registry/[CC/ISO/ITU: Date and time -- Reference time scales (HTML)]
+* https://calconnect.github.io/csd-timescale-registry/[CC/ISO/ITU: Date and time -- Reference time scales]
 
 
 == Fetching the document
