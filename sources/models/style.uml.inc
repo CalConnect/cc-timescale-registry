@@ -38,5 +38,3 @@ skinparam Entity {
   StereotypeFontSize 10
 }
 
-
-/' vim:set ft=plantuml: '/

@@ -71,7 +71,7 @@ The script tag uses script codes from <<ISO15924>> and language codes from <<ISO
 
 [plantuml]
 ....
-# include::../models/style.uml.inc[]
+include::../models/style.uml.inc[]
 include::../models/localized-string.wsd[]
 ....
 
