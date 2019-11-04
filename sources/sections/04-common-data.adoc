@@ -58,11 +58,6 @@ NOTE: The usage of `XZ` echos the identical practice of <<UNLOCODE>>.
 The following data models are common to the data models specified in
 <<reference-time-scale-authority>> and <<reference-time-scale>>.
 
-////
-==== Basic data types
-
-image::datatypes.png[]
-////
 
 ==== Localization
 
@@ -74,5 +69,9 @@ The script tag uses script codes from <<ISO15924>> and language codes from <<ISO
 
 //What happens if not provided in user's language?
 
-image::localized-string.png[]
+[plantuml]
+....
+# include::../models/style.uml.inc[]
+include::../models/localized-string.wsd[]
+....
 

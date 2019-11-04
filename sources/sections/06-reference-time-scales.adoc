@@ -44,8 +44,11 @@ The ISO 34100/AG is tasked with managing a list of reference time scales.
 
 ==== General
 
-image::reference-time-scale.png[]
-
+[plantuml]
+....
+include::../models/style.uml.inc[]
+include::../models/reference-time-scale.wsd[]
+....
 
 ==== Reference time scale code
 

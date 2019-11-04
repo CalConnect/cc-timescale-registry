@@ -1,8 +1,3 @@
-@startuml reference-time-scale
-
-'******* CONFIGURATION ************************************************
-!include style.uml.inc
-
 '******* CLASS DEFINITION *********************************************
 
 class ReferenceTimeScale {
@@ -21,5 +16,3 @@ class ReferenceTimeScale {
 '******* NOTES ********************************************************
 
 'ReferenceTimeScale <|-down- LeapSecondRecord
-
-@enduml

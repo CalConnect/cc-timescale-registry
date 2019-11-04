@@ -1,8 +1,3 @@
-@startuml localized-string
-
-'******* CONFIGURATION ************************************************
-!include style.uml.inc
-
 '******* CLASS DEFINITION *********************************************
 
 class LocalizedStringCollection {
@@ -34,4 +29,3 @@ LocalizedString <-- LocalizationTag
 LocalizationTag <-- iso639Code
 LocalizationTag <-- iso15924Code
 
-@enduml

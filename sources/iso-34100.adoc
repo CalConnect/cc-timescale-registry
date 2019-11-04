@@ -23,7 +23,6 @@
 :toc:
 :stem:
 :xrefstyle: short
-:imagesdir: images
 :docfile: iso-34100.adoc
 :mn-document-class: iso
 :mn-output-extensions: xml,html,doc,html_alt,rxl

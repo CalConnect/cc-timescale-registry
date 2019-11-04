@@ -1,7 +1,3 @@
-@startuml
-
-'******* CONFIGURATION ************************************************
-!include style.uml.inc
 
 class AuthorityInfo {
   +authorityCode: String
@@ -45,5 +41,3 @@ class UnofficialAuthorityInfo extends AuthorityInfo {
 
 'SignatureInfo <-- iso14888Oid
 'AuthorityInfo <-- PublicKey
-
-@enduml

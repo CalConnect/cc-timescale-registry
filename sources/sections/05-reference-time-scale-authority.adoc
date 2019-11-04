@@ -73,8 +73,11 @@ reference time scale authorities.
 
 ==== General
 
-image::timescale-authority.png[]
-
+[plantuml]
+....
+include::../models/style.uml.inc[]
+include::../models/timescale-authority.wsd[]
+....
 
 ==== Reference time scale authority code
 

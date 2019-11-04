@@ -13,7 +13,6 @@
 :toc:
 :stem:
 :xrefstyle: short
-:imagesdir: images
 :docfile: cc-34100.adoc
 :mn-document-class: csd
 :mn-output-extensions: xml,html,pdf,rxl
