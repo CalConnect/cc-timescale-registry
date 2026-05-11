@@ -1,0 +1,216 @@
+
+[[reference-time-scale]]
+== Reference time scale
+
+=== General
+
+Reference time scales are created and managed by time authorities.
+
+Reference time scales can contain time modification records. For example, the UTC time scale
+provides a list of leap seconds that adjusted UTC time since its inception.
+
+
+[[reference-time-scale-types]]
+=== Types of reference time scales
+
+==== International reference time scales
+
+International reference time scales are reference time scales that apply internationally
+without regard to geolocation.
+
+[example]
+UTC and TAI are international reference time scales.
+
+
+==== Official reference time scales
+
+Official reference time scales are created by official reference time scale authorities
+and international reference time scale authorities.
+
+
+==== Unofficial reference time scales
+
+Unofficial reference time scales can be created by any reference time scale authority.
+
+
+=== Registration of reference time scales
+
+The ISO 34100/AG is tasked with managing a list of reference time scales.
+
+
+
+[[ts-data-model]]
+=== Data model and attributes
+
+==== General
+
+[plantuml]
+....
+include::../models/style.uml.inc[]
+include::../models/reference-time-scale.wsd[]
+....
+
+==== Reference time scale code
+
+A code that represents the reference time scale.
+
+
+==== ISO 3166 alpha-2-code
+
+A code that represents the geographic applicability of the reference time scale.
+
+[example]
+UTC time applies globally with the code `aa`.
+
+
+==== Internationally recognized short name
+
+The internationally recognized short name that uniquely identifies the reference time scale.
+
+
+==== Abbreviation
+
+The identifiable abbreviation used for the reference time scale. This is optional.
+
+
+==== Reference time scale authority code
+
+A code that represents the reference time scale authority who manages this reference time scale.
+
+
+==== Remarks
+
+Any further notes.
+
+
+==== Leap seconds
+
+A record of positive or negative leap seconds applied to the reference time scale
+at the described date.
+
+[example]
+UTC leap seconds are provided since its inception in 1972.
+
+[example]
+Leap seconds does not apply to the GMT reference time scale.
+
+
+=== Code and identifier
+
+==== Principles for inclusion in the list of reference time scales
+
+===== List
+
+The list of reference time scales in this document includes known
+reference time scales from official sources.
+
+
+===== Source of names
+
+Names and abbreviations of reference time scales are obtained from the
+reference time scale authorities or other official sources.
+
+
+===== Overlaps
+
+Some reference time scales cover areas that have also been coded separately where an interchange requirement justifies a separate code element; the entries are therefore not mutually exclusive.
+
+[example]
+`aa-utc` applies internationally.
+
+[example]
+`us-gps` applies to the United States.
+
+
+===== Current status of names
+
+Reference time scales listed in this document are intended to reflect the current situation, at the time of issue of the latest update of this document.
+
+
+
+==== Principles for allocation of code elements
+
+===== Relationship with names
+
+Official reference time scale identifiers are in the following format:
+
+[source]
+----
+[iso-3166-code]-[reference-time-scale-identifier]
+----
+
+[example]
+`hk-utchk` for the UTC(Hong Kong) reference time scale managed by the Hong Kong Observatory.
+
+
+The <<ISO3166-1>> private code point `AA` is used as a prefix
+for international reference time scales.
+
+[source]
+----
+aa-[reference-time-scale-identifier]
+----
+
+[example]
+`aa-utc` for the UTC reference time scale managed by the BIPM.
+
+
+
+The <<ISO3166-1>> private code point `ZZ` is used as a prefix
+for all unofficial reference time scales.
+
+In terms of coding, official reference time scale identifiers are in the
+following format:
+
+[source]
+----
+zz-[reference-time-scale-authority-identifier]-[reference-time-scale-identifier]
+----
+
+////
+[example]
+`zz-uco-lst` for the Lick Standard Time reference time scale managed by the University of California Observatories.
+////
+
+
+===== Construction of the alphabetic code
+
+The following rules are to be adhered to for the assignment of the alphabetic code:
+
+* The alphabetic code uses combinations, in upper case, of a maximum of 16 letters of the 26-character Latin alphabet with the "dash" (`-`).
+//, allowing for close to $4^27$ combinations.
+
+* To encourage descriptive and distinguishable alphabetic names, the minimum length of the reference time scale identifier without the <<ISO3166-1>> code is 3 letters.
+
+* The specific code prefix of `XX` is reserved and is used as the prefix of user-assignable reference time scale codes.
+
+
+
+===== User assigned code elements
+
+If users need code elements to represent reference time scales not included in the reference time scale registry, the <<ISO3166-1>> code prefix of `XX` can be used, being a reserved code point `XX` for private user assignment.
+
+The code length for the reference time scale identifier must be 3 or more letters.
+
+Such reference time scale identifiers are in the following format:
+
+[source]
+----
+xx-[reference-time-scale-authority-identifier]-[reference time scale-identifier]
+----
+
+////
+[example]
+`xx-unece-cet` is an example of a user-assigned private code for a reference time scale published by the UN/ECE.
+////
+
+NOTE: Users are advised that the above series of codes are not universals, those code elements are not compatible between different entities.
+
+
+==== List of reference time scale and their code elements
+
+The list of items composing the content of the country code is initially defined in <<annex-reference-time-scales>>.
+Additional and new entries will be listed by the ISO 34100/AG.
+
+Data attributes provided in the list is defined in <<ts-data-model>>.
+

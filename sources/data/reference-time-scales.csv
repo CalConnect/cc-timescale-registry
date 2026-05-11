@@ -1,0 +1,15 @@
+﻿Reference time scale identifier,ISO 3166 Alpha-2 Code,English short name,Abbreviation,Authority,Remarks
+aa-gmst,aa,Greenwich Mean Sidereal Time,GMST,aa-iers,
+aa-lat,aa,Local Apparent Time,LAT,none,
+aa-lmt,aa,Local Mean Time,LMT,none,
+aa-tai,aa,International Atomic Time,TAI,aa-bipm,
+aa-tcb,aa,Barycentric Coordinate Time,TCB,aa-iers,
+aa-tcg,aa,Geocentric Coordinate Time,TCG,aa-iers,
+aa-tdb,aa,Barycentric Dynamical Time,TDB,aa-iers,
+aa-tt,aa,Terrestrial Time,TT,aa-iers,Previously TDT
+aa-ut,aa,Universal Time,UT,aa-iers,Previously Greenwich Mean Time (GMT)
+aa-utc,aa,Coordinated Universal Time,UTC,aa-bipm,
+cn-bds,cn,BeiDou time,BDS,cn-cnsa,
+eu-galileo,eu,Galileo time,Galileo,"eu-esa, eu-gsa",
+ru-glonass,ru,Global Navigation Satellite System time,GLONASS,ru-rc,
+us-gps,us,Global Positioning System Time,GPS,us-afspc,

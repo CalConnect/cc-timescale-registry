@@ -1,0 +1,43 @@
+
+class AuthorityInfo {
+  +authorityCode: String
+  +uri: Uri
+  +name: LocalizedStringCollection
+  +iso3166Code: iso3166Code
+  +description: LocalizedStringCollection
+'  +publicKey: PublicKey
+}
+
+class OfficialAuthorityInfo extends AuthorityInfo {
+}
+
+class InternationalAuthorityInfo extends AuthorityInfo {
+  +iso3166Code: iso3166Code = AA
+}
+
+class UnofficialAuthorityInfo extends AuthorityInfo {
+  +iso3166Code: iso3166Code = ZZ
+}
+
+'class SignatureInfo {
+'  +signature: String
+'  +algorithm: iso14888Oid
+'  +publicKeyUri: Uri
+'}
+'
+'class PublicKey {
+'  +algorithm: iso14888Oid
+'  +content: String
+'  +uri: Uri
+'  +validity: ValidityInfo
+'}
+
+'class iso14888Oid <<dataType>>{
+'
+'}
+
+
+'******* CLASS RELATIONS **********************************************
+
+'SignatureInfo <-- iso14888Oid
+'AuthorityInfo <-- PublicKey

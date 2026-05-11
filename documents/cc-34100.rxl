@@ -1,0 +1,44 @@
+<bibdata type="standard">
+  <title language="en" format="text/plain">Date and time — Reference time scales</title>
+  <docidentifier type="csd">CC/WD 34100:2019</docidentifier>
+  <docnumber>34100</docnumber>
+  <date type="published">
+    <on>2019-02-02</on>
+  </date>
+  <contributor>
+    <role type="author"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <contributor>
+    <role type="publisher"/>
+    <organization>
+      <name>CalConnect</name>
+    </organization>
+  </contributor>
+  <edition>1</edition>
+  <version>
+    <revision-date>2019-02-02</revision-date>
+    
+  </version>
+  <language>en</language>
+  <script>Latn</script>
+  <status>
+    <stage>working-draft</stage>
+  </status>
+  <copyright>
+    <from>2019</from>
+    <owner>
+      <organization>
+        <name>CalConnect</name>
+      </organization>
+    </owner>
+  </copyright>
+  <ext>
+    <doctype>standard</doctype>
+    <editorialgroup>
+      <technical-committee>DATETIME</technical-committee>
+    </editorialgroup>
+  </ext>
+</bibdata>

@@ -1,0 +1,40 @@
+= Date and time -- Reference time scales
+:docnumber: 34100
+:copyright-year: 2019
+:language: en
+:doctype: standard
+:edition: 1
+:status: working-draft
+:revdate: 2019-02-02
+:published-date: 2019-02-02
+:script: Latn
+:technical-committee: DATETIME
+:docfile: cc-34100.adoc
+:mn-document-class: csd
+:mn-output-extensions: xml,html,pdf,rxl
+:local-cache-only:
+:data-uri-image:
+
+////
+:fullname: Ronald Tse
+:surname: Tse
+:givenname: Ronald
+:fullname_2: Jeffrey Lau
+:surname_2: Lau
+:givenname_2: Jeffrey
+////
+include::sections-cc/00-foreword.adoc[]
+include::sections/0b-intro.adoc[]
+include::sections/01-scope.adoc[]
+include::sections/02-norm-refs.adoc[]
+include::sections/03-termsdef.adoc[]
+include::sections/04-common-data.adoc[]
+include::sections/05-reference-time-scale-authority.adoc[]
+include::sections/06-reference-time-scales.adoc[]
+
+include::sections/a1-maintenance.adoc[]
+include::sections/a2-reference-time-scale-authorities.adoc[]
+include::sections/a3-reference-time-scales.adoc[]
+
+include::sections/zz-references.adoc[]
+

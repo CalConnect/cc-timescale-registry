@@ -1,9 +1,0 @@
-﻿Reference time scale identifier,ISO 3166 Alpha-2 Code,English short name,Abbreviation,Authority,Remarks
-aa-utc,aa,UTC,UTC,aa-bipm,
-aa-tai,aa,TAI,TAI,aa-bipm,
-aa-ut,aa,Universal Time,UT,aa-iers,
-aa-gmt,aa,GMT,GMT,none,
-us-gps,us,GPS Time,GPS,us-afspc,
-ru-glonass,ru,GLONASS time,GLONASS,ru-rc,
-eu-galileo,eu,Galileo time,Galileo,"eu-esa, eu-gsa",
-cn-bds,cn,BeiDou time,BDS,cn-cnsa,
