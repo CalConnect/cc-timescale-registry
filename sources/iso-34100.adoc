@@ -19,21 +19,13 @@
 :workgroup-number: 5
 :workgroup: Representation of dates and times
 :secretariat: SAC
-:draft:
-:toc:
-:stem:
-:xrefstyle: short
 :docfile: iso-34100.adoc
 :mn-document-class: iso
 :mn-output-extensions: xml,html,doc,html_alt,rxl
 :local-cache-only:
 :data-uri-image:
-
-:sectnums!:
 include::sections-iso/00-foreword.adoc[]
 include::sections/0b-intro.adoc[]
-
-:sectnums:
 include::sections/01-scope.adoc[]
 include::sections/02-norm-refs.adoc[]
 include::sections/03-termsdef.adoc[]

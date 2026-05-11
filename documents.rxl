@@ -1,0 +1,59 @@
+<relaton-collection xmlns="https://open.ribose.com/relaton-xml"><title>Date and time -- Reference time scales</title><contributor><role type='author'/><organization><name>CalConnect/ISO/ITU</name></organization></contributor><relation type='partOf'><bibdata type='standard'>
+<fetched>2019-11-04</fetched>
+<title>Date and time — Reference time scales</title>
+<docidentifier>CC/WD 34100:2019</docidentifier>
+<uri type='xml'>documents/cc-34100.xml</uri>
+<uri type='html'>documents/cc-34100.html</uri>
+<uri type='pdf'>documents/cc-34100.pdf</uri>
+<uri type='rxl'>documents/cc-34100.rxl</uri>
+<language>en</language>
+<script>Latn</script>
+<copyright><from>2019</from>
+<owner><organization><name>CalConnect</name></organization></owner>
+</copyright><contributor>
+<role type='author'/>
+<organization><name>CalConnect</name></organization>
+</contributor>
+<contributor>
+<role type='publisher'/>
+<organization><name>CalConnect</name></organization>
+</contributor>
+<date type='published'><on>2019-02-02</on></date>
+<edition>1</edition>
+<language>en</language>
+<script>Latn</script>
+<status>
+    working-draft
+  </status>
+</bibdata>
+</relation>
+<relation type='partOf'><bibdata type='standard'>
+<fetched>2019-11-04</fetched>
+<title>Date and time — Reference time scales</title>
+<docidentifier>ISO/PWI 34100</docidentifier>
+<uri type='xml'>documents/iso-34100.xml</uri>
+<uri type='html'>documents/iso-34100.html</uri>
+<uri type='doc'>documents/iso-34100.doc</uri>
+<uri type='rxl'>documents/iso-34100.rxl</uri>
+<language>en</language>
+<script>Latn</script>
+<copyright><from>2019</from>
+<owner><organization><name>International Organization for Standardization</name></organization></owner>
+</copyright><contributor>
+<role type='author'/>
+<organization><name>International Organization for Standardization</name></organization>
+</contributor>
+<contributor>
+<role type='publisher'/>
+<organization><name>International Organization for Standardization</name></organization>
+</contributor>
+<edition>1</edition>
+<language>en</language>
+<script>Latn</script>
+<status>
+    00
+    00
+  </status>
+</bibdata>
+</relation>
+</relaton-collection>

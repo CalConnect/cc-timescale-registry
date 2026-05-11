@@ -9,10 +9,6 @@
 :published-date: 2019-02-02
 :script: Latn
 :technical-committee: DATETIME
-:draft:
-:toc:
-:stem:
-:xrefstyle: short
 :docfile: cc-34100.adoc
 :mn-document-class: csd
 :mn-output-extensions: xml,html,pdf,rxl
@@ -27,12 +23,8 @@
 :surname_2: Lau
 :givenname_2: Jeffrey
 ////
-
-:sectnums!:
 include::sections-cc/00-foreword.adoc[]
 include::sections/0b-intro.adoc[]
-
-:sectnums:
 include::sections/01-scope.adoc[]
 include::sections/02-norm-refs.adoc[]
 include::sections/03-termsdef.adoc[]
