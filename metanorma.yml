@@ -1,11 +1,9 @@
+---
 metanorma:
-  deploy:
-    email: travis-ci@metanorma.org
   source:
     files:
     - sources/cc-34100.adoc
     - sources/iso-34100.adoc
-relaton:
   collection:
-    name: "Date and time\u2009--\u2009Reference time scales"
+    name: Date and time -- Reference time scales
     organization: CalConnect/ISO/ITU
