@@ -1,4 +1,5 @@
+# metanorma.release.yml — cc-timescale-registry
+
 documents:
-  - source: sources/cc-34100.adoc
-  - source: sources/iso-34100.adoc
-    visibility: private
+  - pattern: "cc-*"
+    channels: [public/standards]

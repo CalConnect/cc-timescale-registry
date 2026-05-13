@@ -1,0 +1,5 @@
+# .metanorma/channels.yml — cc-timescale-registry
+
+channels:
+  - name: public/standards
+    description: "CalConnect documents from cc-timescale-registry"
