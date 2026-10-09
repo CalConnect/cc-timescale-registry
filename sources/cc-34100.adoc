@@ -24,6 +24,12 @@
 :givenname_2: Jeffrey
 ////
 include::sections-cc/00-foreword.adoc[]
+
+[abstract]
+== Abstract
+
+This document describes the concepts and definitions related to time scales and time scale authorities, and establishes codes representing their names, current or in the past, on the basis of data obtained from official sources. It specifies a registration authority that manages and disseminates the required code lists.
+
 include::sections/0b-intro.adoc[]
 include::sections/01-scope.adoc[]
 include::sections/02-norm-refs.adoc[]
